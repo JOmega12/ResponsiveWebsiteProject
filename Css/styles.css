@@ -1,0 +1,346 @@
+* {
+   font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* Nav box css */
+
+.navbox {
+   display: flex;
+   color: #6b6b6b;
+   justify-content: flex-end;
+   align-items: center;
+   padding: 5px;
+}
+
+.first-nav {
+   display: flex;
+   justify-content: flex-start;
+   margin-right: 65%;
+}
+
+.nav-logo {
+   cursor: pointer;
+   margin-right: 20px;
+   height: 35px;
+   width: 35px; 
+   border-radius: 20px;
+}
+
+.title {
+   cursor:pointer;
+   padding-top: 10px;
+}
+
+li, a {
+   font-weight: 600px;
+   font-size: 16px;
+   color:#6b6b6b;
+   text-decoration: none;
+}
+
+
+.nav_links {
+   list-style: none;
+   display: inline-block;
+   padding: 0px 10px;
+}
+
+
+ul {
+   list-style-type: none;
+   display: inline-block;
+}
+
+/* Intro About Us CSS */
+
+.first-box {
+   display: flex;
+   flex-direction: column;
+   padding: 0px;
+   margin: 0px;
+   align-items: center;
+}
+
+.header-box {
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   padding: 0px;
+   font-size: 40px;
+   height: 130px;
+   color:#6b6b6b;
+}
+
+.desc-box {
+   display: flex;
+   flex-direction: row;
+   padding: 0px 200px;
+   text-align: center;
+   color: #999;
+}
+
+/* gallery CSS*/
+
+.mid-box {
+   display: flex;
+   flex-direction: column;
+}
+
+.midboxes {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   gap: 10px;
+}
+
+.gallery {
+   height: 150px;
+   width: 300px;
+}
+
+.midboxes h5 {
+   font-size: 20px;
+   color: #6b6b6b;
+   height: 10px;
+}
+
+.midboxes p {
+   color: #999;
+}
+
+/* after gallery */
+.midlower-box {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+
+.midlower-box h3{
+   font-size: 40px;
+   color: #6b6b6b;
+   height: 10px;
+}
+
+.midlower-box p {
+   color: #999;
+   padding: 0px 200px;
+}
+
+/* Team members */
+.member-photo {
+   display: flex;
+   flex-direction: column;
+   padding-bottom: 20px;
+}
+
+.photobox {
+   display: flex;
+   flex-direction: row;
+   gap: 100px;
+   justify-content: center;
+   color: #6b6b6b
+}
+
+.profile-photo {
+   height: 150px;
+   width: 150px;
+}
+
+.member-photo p {
+   height: 10px;
+}
+
+.socials {
+   background-color:  #282828;
+   color: #777;
+   display: flex;
+   flex-direction: row; 
+   justify-content: center;
+   gap: 20px;
+}
+
+footer {
+   color: #777;
+   background-color: #282828;
+}
+
+.media {
+   display: flex;
+}
+
+.media img {
+   color: #777;
+   border-radius: 40px;
+   height: 30px;
+   width: 30px;
+   margin-top: 10px;
+}
+
+.lower-box {
+   display: flex;
+   flex-direction: column;
+}
+
+.lowboxes {
+   display: flex;
+   flex-direction: row;
+   gap: 100px;
+   justify-content: center;
+   text-align: center;
+   font-size: 15px;
+}
+
+.lowboxes h5 {
+   color: #FFFFFF;
+}
+
+.end {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+}
+
+.end p {
+   height: 2px;
+   font-size: 10px;
+   padding: 0px;
+}
+
+
+
+.sticky-footer {
+   background-color: darkblue;
+   z-index: 100;
+
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
+.foot-sticky {
+   background-attachment: scroll;
+   display: flex;
+   flex-direction: row;
+   text-align: center;
+   justify-content: center;
+
+}
+
+.sticky-footer .foot-sticky .a {
+   border: 2px solid black;
+   justify-content: flex-end;
+}
+
+
+
+
+
+@media all and (max-width: 768px) {
+   .navbox {
+      display: flex;
+      color: #6b6b6b;
+      justify-content: flex-end;
+      padding: 5px;
+   }
+   
+   .first-nav {
+      display: flex;
+      margin-right: 20%;
+   }
+   
+   
+   .title {
+      cursor:pointer;
+      padding-top: 10px;
+   }
+
+   .desc-box {
+      display: flex;
+      flex-direction: row;
+      padding: 0px 100px;
+      text-align: center;
+      color: #999;
+   }
+
+   .mid-box {
+      flex-direction: column;
+   }
+
+
+   .midboxes {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 10px;
+      text-align: center;
+   }
+
+   .midboxes img {
+      justify-content: center;
+   }
+
+   .midlower-box p {
+      color: #999;
+      padding: 0px 100px;
+   }
+
+   .member-photo {
+      display: flex;
+      text-align: center;
+   }
+
+   .photobox {
+      flex-direction: column;
+      margin: 0px;
+   }
+
+   .profile-photo {
+      height: 200px;
+      width: 200px;
+   }
+
+   .firstb {
+      height: 200px;
+      margin: 0px;
+   }
+   .secondb {
+      height: 200px;
+      margin: 0px;
+   }
+   .thirdb {
+      height: 200px;
+   }
+   .fourthb {
+      height: 300px;
+   }
+
+   .lower-box {
+      display: flex;
+   }
+   
+   .lowboxes {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      font-size: 15px;
+   }
+
+   .first-low {
+      height: 80px;
+      padding-top: 40px;
+   }
+
+   .second-low {
+      height: 50px;
+   }
+
+   .third-low {
+      height: 100px;
+      padding-bottom: 10px;
+   }
+
+}
+
