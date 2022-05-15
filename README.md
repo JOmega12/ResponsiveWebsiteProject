@@ -1,4 +1,4 @@
-My 3rd Project from my bootcamp that implemented a responsive web page
+My 3rd Project
 
 1. Download the provided mockup
 2. Use any image editing software on your computer to: (advised but optional)
